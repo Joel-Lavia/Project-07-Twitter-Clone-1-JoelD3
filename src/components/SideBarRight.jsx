@@ -11,7 +11,11 @@ function SideBarRight() {
 const tweetFollow = data.map((allNameTweet) => {
    return(
       <div key={allNameTweet.id}>
-      <ProfilSetting nameTweet={allNameTweet.nomTweet} imgProfilSidebaLeft={allNameTweet.avatar} tweetLien={'@nytimes'} certification={allNameTweet.certification} />
+      <img src={allNameTweet.avatar} alt="" />
+      <p>{allNameTweet.nomTweet}</p>
+      <p>{allNameTweet.lienTweet}</p>
+     <button className="button">Follow</button>
+   
       </div>
    );
 })
@@ -32,21 +36,12 @@ return(
     </div>
 
     <div>
-
+    
     <div className="follow">
     {tweetFollow.shift()}
-    <button className="button">Follow</button>
-    </div>
-
-    <div className="follow">
     {tweetFollow.shift()}
-    <button className="button">Follow</button>
+    {tweetFollow.shift()}
     </div>
-
-     <div className="follow">
-     {tweetFollow.shift()}
-     <button className="button">Follow</button>
-     </div>
 
     </div>
     
