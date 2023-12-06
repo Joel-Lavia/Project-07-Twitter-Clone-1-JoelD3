@@ -3,7 +3,7 @@ import seachIcon from "../icons/Search.png"
 import Trading from "./Trading";
 function SideBarRight() {
 return(
- <section>
+ <section className="seconSideBare">
     <form action="" className="seach">
     <i><img src={seachIcon} alt="" /></i> <input  type="seach" placeholder="Serach Twitter" /> 
     </form>
@@ -13,6 +13,9 @@ return(
     <Trading/>
     <Trading/>
     <Trading/>
+    <div>
+    <button className="btnShowmore">Show more</button>
+    </div>
     </div>
    
     

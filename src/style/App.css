@@ -202,6 +202,7 @@ background: rgba(0,0,0,0.5);
    color:grey;
    /* my style*/
 }
+
 /*Sidebar*/
 .sidebarSection{
     display: flex;
@@ -248,18 +249,49 @@ background-color:#202327;
 .trading{
 display:flex;
 flex-direction: column;
-gap:6em;
 background-color:#202327;
-    color:white;
-    font-size:1.1rem;
-    font-weight: bold;
-
+color:white;
+font-size:1.1em;
+font-weight: bold;
+border-radius:1.1em;  
 }
+.btnShowmore{
+    border-bottom-left-radius:12px;
+    background-color:#202327;
+    border-style:none;
+    font-size:1.1em;
+    font-weight:bold;
+    color:#1D9BF0;
+    padding:0.2em 1.7em;
+    }
 .trading h2{
-    /* line-height: 3em;   */
+display:flex;
+justify-content: space-around;
+line-height:3em;
 }
-.tradings{
-display: flex;
-flex-direction:column;
+.CommonMoreContent{
+display:flex;
+justify-content: space-around;
 
 }
+.seconSideBare{
+ display:flex;
+ flex-direction:column;
+ gap:1em; 
+ padding: 1.5em 1em;  
+}
+.morebtn{
+background-color: #202327;
+border-style:none;
+padding-bottom:6em;
+color:grey;
+font-weight:bold;
+}
+/* .trading button{
+    background-color:#202327;
+    font-weight:bold;
+    font-size:1em;
+    border-style:none;
+    border-radius:1.1em;  
+    
+    } */
