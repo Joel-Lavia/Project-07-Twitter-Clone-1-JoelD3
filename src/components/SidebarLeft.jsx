@@ -8,6 +8,8 @@ import list from "../icons/Lists.png";
 import profilTweet from "../icons/Profile.png";
 import profilePhoto from "../images/profile-photo.png"
 import more from "../icons/More.png";
+import privateImg from "../images/Private.png"
+
 import ProfilSetting from "./ProfilSetting";
 
 function SidebarLeft() {
@@ -29,7 +31,7 @@ function SidebarLeft() {
      </div>
     
      
-<ProfilSetting imgProfilSidebaLeft={profilePhoto} />
+<ProfilSetting imgProfilSidebaLeft={profilePhoto} nameTweet={'Bradley Ortiz'} tweetLien={'@bradley_'} certification={privateImg} />
 
     </section>
   );
