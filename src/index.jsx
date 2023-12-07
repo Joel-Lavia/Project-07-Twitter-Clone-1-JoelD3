@@ -15,8 +15,8 @@ const router = createBrowserRouter([
 {
   path:'/',
   element:<App/>
-},
-
+}
+,
 {
   path:'/Explore',
   element:<Explore/>
