@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 import tweet from "../icons/Twitter.png";
 import home from "../icons/Home-Fill.png";
 import explor from "../icons/Explore.png";
@@ -18,6 +19,7 @@ function SidebarLeft() {
     <section className="sidebarSection">
 
      <div className="sidebar">
+      {/* <NavLink></NavLink> */}
       <button className="sidebarbtn"><img src={tweet} alt="btn Tweeter" /></button>
       <button className="sidebarbtn"><img src={home} alt="btn home" />Home</button>
       <button className="sidebarbtn"><img src={explor} alt="btn explor" />Explore</button>
