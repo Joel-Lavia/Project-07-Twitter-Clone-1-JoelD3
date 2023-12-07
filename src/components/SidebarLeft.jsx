@@ -23,16 +23,15 @@ function SidebarLeft() {
       <button className="sidebarbtn"><img src={tweet} alt="btn Tweeter" /></button>
       <button className="sidebarbtn"><img src={home} alt="btn home" /><NavLink to={'/Home'}>Home</NavLink></button>
       <button className="sidebarbtn"><img src={explor} alt="btn explor" /><NavLink to={'/Explore'}>Explore</NavLink></button>
-      <button className="sidebarbtn"><img src={notification} alt="btn notification" />Notifications</button>
-      <button className="sidebarbtn"><img src={messages} alt="btn messages" />Messages</button>
-      <button className="sidebarbtn"><img src={bookMark} alt="btn bookmarks" />Bookmarks</button>
-      <button className="sidebarbtn"><img src={list} alt="btn twett list" />Lists</button>
-      <button className="sidebarbtn"><img src={profilTweet} alt="btn profil tweet" />Profil</button>
-      <button className="sidebarbtn"><img src={more} alt="btn more" />More</button>
+      <button className="sidebarbtn"><img src={notification} alt="btn notification" /><NavLink to={'/Notifications'}>Notifications</NavLink></button>
+      <button className="sidebarbtn"><img src={messages} alt="btn messages" /><NavLink to={'/Messages'}>Messages</NavLink></button>
+      <button className="sidebarbtn"><img src={bookMark} alt="btn bookmarks" /><NavLink to={'/Bookmarks'}>Bookmarks</NavLink></button>
+      <button className="sidebarbtn"><img src={list} alt="btn twett list" /><NavLink to={'/Lists'}>Lists</NavLink></button>
+      <button className="sidebarbtn"><img src={profilTweet} alt="btn profil tweet" /><NavLink to={'/Profil'}>Profil</NavLink></button>
+      <button className="sidebarbtn"><img src={more} alt="btn more" /><NavLink to={'/More'}>More</NavLink></button>
       <button className="button">Tweet</button>
      </div>
     
-     
 <ProfilSetting imgProfilSidebaLeft={profilePhoto} nameTweet={'Bradley Ortiz'} tweetLien={'@bradley_'} certification={privateImg} />
 
     </section>

@@ -1,6 +1,10 @@
+import SidebarLeft from "../components/SidebarLeft";
+
 function List() {
 return(
-<p>My list</p>
+<div>
+    <SidebarLeft/>
+</div>
 );
 }
 export default List

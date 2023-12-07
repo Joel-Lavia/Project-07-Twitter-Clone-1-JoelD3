@@ -1,6 +1,10 @@
+import SidebarLeft from "../components/SidebarLeft";
+
 function Message() {
 return(
-<p>Message</p>
+    <div>
+   <SidebarLeft/>
+    </div>
 );
 }
 export default Message

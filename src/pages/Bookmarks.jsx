@@ -1,6 +1,10 @@
+import SidebarLeft from "../components/SidebarLeft";
+
 function Bookmarks() {
 return (
-<p>Bookmarks</p>
+<div>
+  <SidebarLeft/>  
+</div>
 );    
 }
 export default Bookmarks

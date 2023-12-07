@@ -1,6 +1,10 @@
+import SidebarLeft from "../components/SidebarLeft";
+
 function Profil() {
 return (
-<p>My profil</p>
-);  
+<div>
+    <SidebarLeft/>
+</div>
+    );  
 }
 export default Profil
