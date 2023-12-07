@@ -13,7 +13,7 @@ import More from "./pages/More";
 
 const router = createBrowserRouter([
 {
-  path:'/Home',
+  path:'/',
   element:<App/>
 },
 

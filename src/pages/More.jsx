@@ -1,6 +1,12 @@
+import SidebarLeft from "../components/SidebarLeft";
+
 function More() {
 return(
-<p>More</p>
+    <div>
+  <p>More</p>
+<SidebarLeft/>
+    </div>
+
 );
 }
 export default More

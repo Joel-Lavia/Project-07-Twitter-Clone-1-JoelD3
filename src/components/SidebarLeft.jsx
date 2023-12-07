@@ -21,14 +21,14 @@ function SidebarLeft() {
      <div className="sidebar">
       {/* <NavLink></NavLink> */}
       <button className="sidebarbtn"><img src={tweet} alt="btn Tweeter" /></button>
-      <button className="sidebarbtn"><img src={home} alt="btn home" /><NavLink to={'/Home'}>Home</NavLink></button>
-      <button className="sidebarbtn"><img src={explor} alt="btn explor" /><NavLink to={'/Explore'}>Explore</NavLink></button>
-      <button className="sidebarbtn"><img src={notification} alt="btn notification" /><NavLink to={'/Notifications'}>Notifications</NavLink></button>
-      <button className="sidebarbtn"><img src={messages} alt="btn messages" /><NavLink to={'/Messages'}>Messages</NavLink></button>
-      <button className="sidebarbtn"><img src={bookMark} alt="btn bookmarks" /><NavLink to={'/Bookmarks'}>Bookmarks</NavLink></button>
-      <button className="sidebarbtn"><img src={list} alt="btn twett list" /><NavLink to={'/Lists'}>Lists</NavLink></button>
-      <button className="sidebarbtn"><img src={profilTweet} alt="btn profil tweet" /><NavLink to={'/Profil'}>Profil</NavLink></button>
-      <button className="sidebarbtn"><img src={more} alt="btn more" /><NavLink to={'/More'}>More</NavLink></button>
+      <button className="sidebarbtn"><img src={home} alt="btn home" /><NavLink to={'/Home'} className={'sidebarbtnNav'}>Home</NavLink></button>
+      <button className="sidebarbtn"><img src={explor} alt="btn explor" /><NavLink to={'/Explore'} className={'sidebarbtnNav'}>Explore</NavLink></button>
+      <button className="sidebarbtn"><img src={notification} alt="btn notification" /><NavLink to={'/Notifications'} className={'sidebarbtnNav'}>Notifications</NavLink></button>
+      <button className="sidebarbtn"><img src={messages} alt="btn messages" /><NavLink to={'/Messages'} className={'sidebarbtnNav'}>Messages</NavLink></button>
+      <button className="sidebarbtn"><img src={bookMark} alt="btn bookmarks" /><NavLink to={'/Bookmarks'} className={'sidebarbtnNav'}>Bookmarks</NavLink></button>
+      <button className="sidebarbtn"><img src={list} alt="btn twett list" /><NavLink to={'/Lists'} className={'sidebarbtnNav'}>Lists</NavLink></button>
+      <button className="sidebarbtn"><img src={profilTweet} alt="btn profil tweet" /><NavLink to={'/Profil'} className={'sidebarbtnNav'}>Profil</NavLink></button>
+      <button className="sidebarbtn"><img src={more} alt="btn more" /><NavLink to={'/More'} className={'sidebarbtnNav'}>More</NavLink></button>
       <button className="button">Tweet</button>
      </div>
     

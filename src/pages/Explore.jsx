@@ -1,6 +1,10 @@
+import SidebarLeft from "../components/SidebarLeft";
+
 function Explore(){
     return(
-    <p>welcome</p>
+        <div>
+            <SidebarLeft/>
+        </div>
     );
 }
 
