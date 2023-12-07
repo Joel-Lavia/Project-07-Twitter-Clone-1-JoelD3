@@ -296,19 +296,26 @@ color:grey;
 font-weight:bold;
 }
 
-.follow{
-    display: flex;
-    flex-direction:column;
-    /* align-items: flex-start; */
-    gap:3em;
-    padding: 1.5rem 1rem;
-    font-weight:normal; 
-    background-color:#202327;
-    border-radius:42px;
+.followContent{
+display:flex;
+font-size:1.2em;
+gap:7em;
+justify-content:space-between;
 
 
 }
-.follow button{
+.followContent button{
 background-color:white;
 color:#0F1419;
+}
+.follow{
+display:flex;
+}
+.foolowList{
+display:flex;
+flex-direction:column;
+gap:5em;
+background-color:#202327;
+padding:1.1em;
+border-radius:42px;
 }
