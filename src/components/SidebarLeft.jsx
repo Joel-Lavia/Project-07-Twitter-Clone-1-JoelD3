@@ -21,8 +21,8 @@ function SidebarLeft() {
      <div className="sidebar">
       {/* <NavLink></NavLink> */}
       <button className="sidebarbtn"><img src={tweet} alt="btn Tweeter" /></button>
-      <button className="sidebarbtn"><img src={home} alt="btn home" />Home</button>
-      <button className="sidebarbtn"><img src={explor} alt="btn explor" />Explore</button>
+      <button className="sidebarbtn"><img src={home} alt="btn home" /><NavLink to={'/Home'}>Home</NavLink></button>
+      <button className="sidebarbtn"><img src={explor} alt="btn explor" /><NavLink to={'/Explore'}>Explore</NavLink></button>
       <button className="sidebarbtn"><img src={notification} alt="btn notification" />Notifications</button>
       <button className="sidebarbtn"><img src={messages} alt="btn messages" />Messages</button>
       <button className="sidebarbtn"><img src={bookMark} alt="btn bookmarks" />Bookmarks</button>

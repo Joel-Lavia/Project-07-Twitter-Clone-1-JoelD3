@@ -1,0 +1,6 @@
+function Bookmarks() {
+return (
+<p>Bookmarks</p>
+);    
+}
+export default Bookmarks
