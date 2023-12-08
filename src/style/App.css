@@ -196,9 +196,130 @@ background: rgba(0,0,0,0.5);
     align-items: center;
     justify-content: center;
     gap: 20px;
-    /*style ajouter par moi */
+    /* my style*/
     background: rgba(0,0,0,0.5);
    border-style:none;
    color:grey;
-   /*style ajouter par moi */
+   /* my style*/
+}
+
+/*Sidebar*/
+.sidebarSection{
+    display: flex;
+    justify-content:space-between;
+    flex-direction:column;
+padding: 1.5rem 1rem;
+}
+.sidebar{
+display:flex;
+flex-direction: column;
+gap:50px;
+}
+.sidebarbtn{
+    display: flex;
+    gap:1rem;
+    color:white;
+    font-size:1.2rem;
+    background-color: black;
+    border-style:none;
+    font-weight:bold;
+}
+.sidebarbtnNav{
+color:white;
+text-decoration: none;
+}
+.profilSibare{
+display: flex;
+font-size:1.2em;
+font-weight:bold;
+}
+.tweet-name{
+ display: flex; 
+ flex-direction:column; 
+ font-size:1.1em;
+}
+
+/* .tweet-name i{
+    display: flex;
+    
+    
+    } */
+.seach{
+display:flex;
+gap:10px;
+padding:12px 50px;
+background-color:#202327;
+border-radius:42px;
+
+}
+.seach input{
+border-style:none;
+background-color:#202327;
+}
+.trading{
+display:flex;
+flex-direction: column;
+background-color:#202327;
+color:white;
+font-size:1.1em;
+font-weight: bold;
+border-radius:1.1em;  
+padding-left:1em;
+padding-right:1em;
+}
+.btnShowmore{
+    border-bottom-left-radius:12px;
+    background-color:#202327;
+    border-style:none;
+    font-size:1.1em;
+    font-weight:bold;
+    color:#1D9BF0;
+    padding-bottom:1em;
+
+    }
+.trading h2{
+display:flex;
+justify-content: space-between;
+line-height:3em;
+}
+.CommonMoreContent{
+display:flex;
+justify-content:space-between;
+}
+.seconSideBare{
+ display:flex;
+ flex-direction:column;
+ gap:1em; 
+ padding: 1.5em 1em;  
+}
+.morebtn{
+background-color: #202327;
+border-style:none;
+padding-bottom:6em;
+color:grey;
+font-weight:bold;
+}
+
+.followContent{
+display:flex;
+font-size:1.2em;
+gap:7em;
+justify-content:space-between;
+
+
+}
+.followContent button{
+background-color:white;
+color:#0F1419;
+}
+.follow{
+display:flex;
+}
+.foolowList{
+display:flex;
+flex-direction:column;
+gap:5em;
+background-color:#202327;
+padding:1.1em;
+border-radius:42px;
 }

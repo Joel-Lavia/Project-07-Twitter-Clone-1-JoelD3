@@ -2,6 +2,7 @@ import React from "react";
 import Header from "../components/Header";
 import TweetEditor from "../components/TweetEditor";
 import Twett from "../components/Tweet";
+import SidebarLeft from "../components/SidebarLeft";
 function Home() {
   return (
     <main className="timeline">
